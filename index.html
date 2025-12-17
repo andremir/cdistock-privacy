@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidade - CDIStock</title>
+    <title>Política de Privacidade - PortfolioMan</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -22,105 +22,211 @@
         ul { padding-left: 25px; margin-bottom: 15px; }
         li { margin-bottom: 8px; }
         strong { color: #1a1a1a; }
+        .highlight {
+            background: #f0f9ff;
+            border-left: 4px solid #0ea5e9;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .highlight p { margin-bottom: 0; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        th { background: #f9fafb; font-weight: 600; }
         footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; color: #666; font-size: 0.9rem; }
+        a { color: #0ea5e9; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Política de Privacidade</h1>
-        <p class="date">Última atualização: 16 de dezembro de 2025</p>
+        <p class="date">Última atualização: 17 de dezembro de 2025</p>
 
         <section>
-            <h2>Introdução</h2>
-            <p>CDIStock ("nós", "nosso" ou "nos") está comprometido em proteger sua privacidade. Esta Política de Privacidade explica como coletamos, usamos e protegemos suas informações quando você usa nosso aplicativo de gerenciamento de portfólio de investimentos.</p>
+            <h2>1. Introdução</h2>
+            <p>PortfolioMan ("nós", "nosso" ou "o Aplicativo") está comprometido em proteger sua privacidade. Esta Política de Privacidade explica como coletamos, usamos, armazenamos e protegemos suas informações quando você usa nosso aplicativo móvel.</p>
         </section>
 
         <section>
-            <h2>Informações que Coletamos</h2>
+            <h2>2. Informações que Coletamos</h2>
             
             <h3>Informações da Conta</h3>
             <ul>
-                <li><strong>Endereço de E-mail:</strong> Usado para autenticação e login da conta.</li>
-                <li><strong>ID do Usuário:</strong> Um identificador único atribuído à sua conta para gerenciamento de dados.</li>
+                <li><strong>Endereço de e-mail:</strong> Usado para criação de conta, autenticação e comunicações relacionadas à conta.</li>
+                <li><strong>Senha:</strong> Armazenada de forma segura usando criptografia padrão da indústria (nunca armazenamos senhas em texto simples).</li>
             </ul>
 
             <h3>Informações Financeiras</h3>
             <ul>
-                <li><strong>Dados do Portfólio:</strong> Informações que você insere sobre seus investimentos, incluindo tickers de ações, datas de transações, quantidades, preços e outros detalhes financeiros.</li>
-                <li>Essas informações são armazenadas com segurança e são acessíveis apenas por você.</li>
+                <li><strong>Posições do portfólio:</strong> Tickers de ações, quantidades, datas e preços de compra que você insere.</li>
+                <li><strong>Histórico de transações:</strong> Transações de compra/venda que você registra.</li>
+                <li><strong>Registros de dividendos:</strong> Pagamentos de dividendos que você acompanha.</li>
             </ul>
 
-            <h3>Dados de Uso</h3>
+            <h3>Informações do Dispositivo</h3>
             <ul>
-                <li><strong>Interação com o Produto:</strong> Informações sobre como você usa o aplicativo para melhorar nossos serviços.</li>
-                <li><strong>Dados de Falhas:</strong> Informações técnicas quando o aplicativo falha, usadas para corrigir bugs.</li>
-                <li><strong>Dados de Desempenho:</strong> Métricas de desempenho do aplicativo para otimizar a experiência do usuário.</li>
+                <li><strong>Identificadores de dispositivo:</strong> Usados exclusivamente para entrega de notificações push via OneSignal.</li>
+                <li><strong>Tokens de notificação push:</strong> Para enviar alertas e atualizações que você optou por receber.</li>
             </ul>
         </section>
 
         <section>
-            <h2>Como Usamos Suas Informações</h2>
+            <h2>3. Informações que NÃO Coletamos</h2>
+            
+            <div class="highlight">
+                <p><strong>Chat com IA (Traga Sua Própria Chave - BYOK):</strong> Nosso recurso de assistente de IA requer que você forneça sua própria chave de API (OpenAI, Anthropic ou outros provedores). Todas as conversas de IA são enviadas diretamente do seu dispositivo para o provedor de IA escolhido. Nós nunca recebemos, processamos, armazenamos ou temos acesso às suas conversas de IA ou chaves de API.</p>
+            </div>
+
+            <div class="highlight">
+                <p><strong>Entrada de Voz:</strong> O reconhecimento de fala é processado inteiramente no seu dispositivo usando as capacidades nativas do iOS (Apple Speech) ou Android. Nenhum dado de áudio é transmitido para nossos servidores ou terceiros.</p>
+            </div>
+
             <ul>
-                <li><strong>Funcionalidade do App:</strong> Para autenticar sua conta, exibir seus dados de portfólio e fornecer recursos principais do aplicativo.</li>
-                <li><strong>Personalização:</strong> Para fornecer insights personalizados de portfólio e análise financeira com IA baseada em seus dados.</li>
-                <li><strong>Melhoria:</strong> Para analisar padrões de uso, corrigir bugs e melhorar o desempenho do aplicativo.</li>
+                <li>Não coletamos dados de localização</li>
+                <li>Não acessamos seus contatos, fotos ou outros dados do dispositivo</li>
+                <li>Não coletamos dados biométricos</li>
+                <li>Não vendemos seus dados para terceiros</li>
             </ul>
         </section>
 
         <section>
-            <h2>Armazenamento e Segurança de Dados</h2>
-            <p>Seus dados são armazenados com segurança usando serviços de nuvem. Implementamos medidas de segurança padrão da indústria para proteger suas informações contra acesso não autorizado, alteração ou destruição.</p>
+            <h2>4. Como Usamos Suas Informações</h2>
+            
+            <table>
+                <tr>
+                    <th>Tipo de Dado</th>
+                    <th>Finalidade</th>
+                </tr>
+                <tr>
+                    <td>E-mail e Senha</td>
+                    <td>Autenticação e segurança da conta</td>
+                </tr>
+                <tr>
+                    <td>Dados do Portfólio</td>
+                    <td>Exibir suas posições, calcular desempenho e fornecer análises</td>
+                </tr>
+                <tr>
+                    <td>Histórico de Transações</td>
+                    <td>Acompanhar sua atividade de investimento e calcular retornos</td>
+                </tr>
+                <tr>
+                    <td>Registros de Dividendos</td>
+                    <td>Acompanhar renda de dividendos e análise de rendimento</td>
+                </tr>
+                <tr>
+                    <td>Identificadores de Dispositivo</td>
+                    <td>Entregar notificações push que você habilitou</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>5. Armazenamento e Segurança de Dados</h2>
+            
+            <p>Seus dados são armazenados com segurança usando a seguinte infraestrutura:</p>
+            
             <ul>
-                <li>Todos os dados são criptografados em trânsito usando HTTPS/TLS.</li>
-                <li>Armazenamento seguro na nuvem com regras de segurança integradas.</li>
-                <li>Não vendemos nem compartilhamos seus dados pessoais ou financeiros com terceiros para fins publicitários.</li>
+                <li><strong>Banco de Dados:</strong> Supabase (PostgreSQL), hospedado nos Estados Unidos</li>
+                <li><strong>Autenticação:</strong> Supabase Auth com armazenamento de senha criptografada</li>
+                <li><strong>Transmissão de dados:</strong> Todos os dados são criptografados em trânsito usando TLS/SSL</li>
+                <li><strong>Dados em repouso:</strong> Criptografados usando criptografia AES-256</li>
             </ul>
+
+            <p>Implementamos medidas de segurança padrão da indústria, incluindo protocolos de autenticação segura, transmissão de dados criptografada e atualizações regulares de segurança.</p>
         </section>
 
         <section>
-            <h2>Serviços de Terceiros</h2>
-            <p>Usamos os seguintes serviços de terceiros:</p>
+            <h2>6. Serviços de Terceiros</h2>
+            
+            <p>Utilizamos os seguintes serviços de terceiros:</p>
+
+            <table>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Finalidade</th>
+                    <th>Dados Compartilhados</th>
+                </tr>
+                <tr>
+                    <td>Supabase</td>
+                    <td>Banco de dados e autenticação</td>
+                    <td>Dados de conta e portfólio</td>
+                </tr>
+                <tr>
+                    <td>OneSignal</td>
+                    <td>Notificações push</td>
+                    <td>Identificadores de dispositivo, preferências de notificação</td>
+                </tr>
+                <tr>
+                    <td>Provedores de dados de mercado</td>
+                    <td>Preços de ações e dados financeiros</td>
+                    <td>Apenas tickers de ações (sem dados pessoais)</td>
+                </tr>
+            </table>
+
+            <p>Cada serviço de terceiros tem sua própria política de privacidade:</p>
             <ul>
-                <li><strong>Autenticação:</strong> Para autenticação e gerenciamento de contas.</li>
-                <li><strong>APIs de IA:</strong> Para análise de portfólio e recursos de chat com IA. Seus dados podem ser enviados para gerar insights, mas não são armazenados para fins de treinamento.</li>
-                <li><strong>APIs de Dados Financeiros:</strong> Para buscar preços de ações em tempo real e dados de mercado.</li>
+                <li><a href="https://supabase.com/privacy" target="_blank">Política de Privacidade do Supabase</a></li>
+                <li><a href="https://onesignal.com/privacy_policy" target="_blank">Política de Privacidade do OneSignal</a></li>
             </ul>
         </section>
 
         <section>
-            <h2>Retenção de Dados</h2>
-            <p>Retemos seus dados enquanto sua conta estiver ativa. Você pode solicitar a exclusão de sua conta e dados associados a qualquer momento entrando em contato conosco.</p>
-        </section>
-
-        <section>
-            <h2>Seus Direitos</h2>
-            <p>Você tem o direito de:</p>
+            <h2>7. Seus Direitos e Escolhas</h2>
+            
+            <p>Você tem os seguintes direitos em relação aos seus dados:</p>
+            
             <ul>
-                <li>Acessar seus dados pessoais armazenados no aplicativo.</li>
-                <li>Solicitar correção de dados imprecisos.</li>
-                <li>Solicitar exclusão de sua conta e dados.</li>
-                <li>Exportar seus dados de portfólio.</li>
+                <li><strong>Acesso:</strong> Você pode visualizar todos os seus dados dentro do aplicativo a qualquer momento</li>
+                <li><strong>Exportação:</strong> Você pode solicitar uma exportação dos seus dados entrando em contato conosco</li>
+                <li><strong>Exclusão:</strong> Você pode excluir sua conta e todos os dados associados nas configurações do aplicativo, ou entrando em contato conosco</li>
+                <li><strong>Correção:</strong> Você pode editar os dados do seu portfólio diretamente no aplicativo</li>
+                <li><strong>Notificações push:</strong> Você pode desativar notificações push nas configurações do seu dispositivo a qualquer momento</li>
             </ul>
         </section>
 
         <section>
-            <h2>Privacidade de Crianças</h2>
-            <p>O CDIStock não é destinado ao uso por crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças menores de 13 anos.</p>
+            <h2>8. Retenção de Dados</h2>
+            
+            <p>Retemos seus dados enquanto sua conta estiver ativa. Se você excluir sua conta:</p>
+            <ul>
+                <li>Suas informações de conta e dados de portfólio são excluídos permanentemente dentro de 30 dias</li>
+                <li>Cópias de backup podem persistir por até 90 dias antes de serem automaticamente eliminadas</li>
+                <li>Dados analíticos anonimizados e agregados podem ser retidos indefinidamente</li>
+            </ul>
         </section>
 
         <section>
-            <h2>Alterações nesta Política</h2>
-            <p>Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos você sobre quaisquer alterações atualizando a data de "Última atualização" no topo desta página.</p>
+            <h2>9. Privacidade de Crianças</h2>
+            <p>O PortfolioMan não é destinado ao uso por crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças menores de 13 anos. Se você acredita que coletamos informações de uma criança menor de 13 anos, entre em contato conosco imediatamente.</p>
         </section>
 
         <section>
-            <h2>Contato</h2>
-            <p>Se você tiver dúvidas sobre esta Política de Privacidade ou nossas práticas de dados, entre em contato conosco:</p>
-            <p><strong>E-mail:</strong> support@cdistock.app</p>
+            <h2>10. Usuários Internacionais</h2>
+            <p>Nossos serviços são hospedados nos Estados Unidos. Se você acessar o Aplicativo de fora dos Estados Unidos, seus dados serão transferidos e processados nos Estados Unidos. Ao usar o Aplicativo, você consente com esta transferência e processamento.</p>
+        </section>
+
+        <section>
+            <h2>11. Alterações nesta Política</h2>
+            <p>Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos você sobre quaisquer alterações materiais publicando a nova política no aplicativo e atualizando a data de "Última atualização". O uso continuado do Aplicativo após as alterações constitui aceitação da política atualizada.</p>
+        </section>
+
+        <section>
+            <h2>12. Contato</h2>
+            <p>Se você tiver dúvidas sobre esta Política de Privacidade ou desejar exercer seus direitos de dados, entre em contato conosco:</p>
+            <p><strong>E-mail:</strong> <a href="mailto:support@cdistock.app">support@cdistock.app</a></p>
         </section>
 
         <footer>
-            <p>&copy; 2025 CDIStock. Todos os direitos reservados.</p>
+            <p><a href="delete-account.html">Como excluir sua conta →</a></p>
+            <p style="margin-top: 10px;">&copy; 2025 PortfolioMan. Todos os direitos reservados.</p>
         </footer>
     </div>
 </body>
